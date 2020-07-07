@@ -1,5 +1,8 @@
 package se.lexicon.service;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class AppUserIdSequencerImpl implements AppUserIdSequencer{
 
     private int number = 0;
